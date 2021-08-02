@@ -1,0 +1,98 @@
+body {
+    font-family: tahoma;
+    color:#282828;
+    margin: 0px;
+}
+
+.nav-bar {
+    position: relative;
+    background-image: linear-gradient(-90deg, #84CF6A, #16C0B0);
+    height: 10vh;
+    width: 100vw;
+    padding: 1%;
+    margin-bottom: 15px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    position: absolute;
+    right: 10vw;
+    top: 4vh;
+}
+
+.nav-bar ul li {
+    display: inline;
+    font-weight: bold;
+    margin: .5em;
+}
+
+.product {
+    display: flex;
+}
+
+img {
+    border: 1px solid #d8d8d8;
+    width: 70%;
+    margin: 40px;
+    box-shadow: 0px .5px 1px #d8d8d8;
+}
+
+.product-image {
+    width: 40%;
+}
+
+.product-info {
+    width: 50%;
+}
+
+.color-box {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    background-color: #1E95EA;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.disabledButton {
+    background-color: #d8d8d8;
+}
+
+.review {
+    margin-left: 40px;
+}
+
+.review-form {
+    width: 400px;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid #d8d8d8;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+}
+
+.activeTab {
+    color: #16C0B0;
+    text-decoration: underline;
+}
+
+.tab {
+    margin-left: 20px;
+    cursor: pointer;
+}

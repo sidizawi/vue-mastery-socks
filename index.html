@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Socks</title>
+</head>
+<body>
+    <div id="app">
+        <nav-bar :brand="brand" 
+                :cart="cart.length"
+        >
+        </nav-bar>
+        <product :brand="brand"
+                :premium="premium" 
+                @add-to-cart="addToCart"
+                @remove-from-cart="removeFromCart"
+        >
+        </product>
+        <product-review></product-review>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="main.js"></script>
+</body>
+</html>
